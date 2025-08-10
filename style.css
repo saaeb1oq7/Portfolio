@@ -1050,7 +1050,11 @@ footer h1{
         margin-bottom: 50px;
     }
 
-    .footer h1{
+    footer{
+        bottom: -150px;
+    }
+
+    footer h1{
         font-size: 17px;
     }
 
@@ -1059,10 +1063,14 @@ footer h1{
     }
 
     .menu-icon{
-        display: inline;
+        display: block;
     }
 
-    .sidebar{
-        display: inline;
+    .autoDisplay{
+        animation: none;
     }
+    .autoBlur{
+        animation: none;
+    }
+
 } 
