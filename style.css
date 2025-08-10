@@ -1083,6 +1083,10 @@ footer h1{
         position: relative;
         left: 70px;
     }
-    
+
+    .fadeInRight{
+        animation:none;
+    }
 
 } 
+
